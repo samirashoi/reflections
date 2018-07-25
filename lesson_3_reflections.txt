@@ -20,7 +20,7 @@ make another repository.
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+	Having a copy of the last known state helps us keep track of the commits we've made so far. We can use it to review the commits that we've made in our local machine that are not in the remote repository.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
