@@ -25,7 +25,7 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+	I would have to code my project in my local machine and then transfer these files to another contributor through a hard drive or email the files so that they can work on it. Using Git/ GitHub would be way easier than manually transferring the data to be shared.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
