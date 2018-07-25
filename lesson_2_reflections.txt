@@ -25,5 +25,7 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	The commonalities of the two different branches remain whereas the code deleted in one branch gets deleted whereas the code added in any one branch gets added to the merged repo. We represent it like that since it joins the contents of two files together.
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
