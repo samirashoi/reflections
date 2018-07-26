@@ -30,4 +30,5 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+	Whenever I work on a bugfix or when I am trying out a new feature, it would make more sense to create another branch for that work and after completing it, merge it with the master branch. This allows a working copy of the code to be stored in master while allowing us to develop other features simultaneously.
+	If I was fixing a typo or grammar in the docs, I would rather make changes in the master itself as it doesn't need any significant changes.
