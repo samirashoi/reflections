@@ -1,34 +1,60 @@
 When would you want to use a remote repository rather than keeping all your work
 local?
 
-    Using a remote repository allows makes it more accesible to work on projects. You don't always need your local machne in order to work on your project. It also makes collaborating with others much more efficient. Remote repositories are very useful when you want to access your files in a machine other than your local machine as well as working with others on projects.
+    Using a remote repository allows makes it more accesible to work on projects.
+You don't always need your local machne in order to work on your project. It 
+also makes collaborating with others much more efficient. Remote repositories are
+very useful when you want to access your files in a machine other than your 
+local machine as well as working with others on projects.
 
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Sometimes we may be working on a issue/bug fix/feature that requires a particular code available now. If some other contributor decides to change the code in the remote repository and if Git automatically pulls the repo, we may not notice the changes in the code and may run into errors. Making it mandatory for manually pulling the repo makes us conscious of the changes in the repository and makes us less likely to commit errors.
+    Sometimes we may be working on a issue/bug fix/feature that requires 
+a particular code available now. If some other contributor decides to 
+change the code in the remote repository and if Git automatically pulls 
+the repo, we may not notice the changes in the code and may run into 
+errors. Making it mandatory for manually pulling the repo makes us 
+conscious of the changes in the repository and makes us less likely to 
+commit errors.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-	Forks are used when you want you make some changes to a repo but do not have the permission to do it. Instead you can fork the entire code and make your own repo based on the existing repo. This is known as forking.
-	Clones are used to copy the entire source code as well as commit history of a project. In clones, we have permission to edit the master branch and do not need to
-make another repository.
-	Branches describe the different paths of work that are done during a project. Branching is useful when you want to work on a new feature/bug fix/etc. but do not want to break the project while doing so. We can have the master branch in which the projects works and a new_feature branch to work on the new feature.
+	Forks are used when you want you make some changes to a repo but do 
+not have the permission to do it. Instead you can fork the entire code and 
+make your own repo based on the existing repo. This is known as forking.
+	Clones are used to copy the entire source code as well as commit 
+history of a project. In clones, we have permission to edit the master branch
+ and do not need to make another repository.
+	Branches describe the different paths of work that are done during a 
+project. Branching is useful when you want to work on a 
+new feature/bug fix/etc. but do not want to break the project while doing so.
+ We can have the master branch in which the projects works and a new_feature 
+branch to work on the new feature.
 	
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-	Having a copy of the last known state helps us keep track of the commits we've made so far. We can use it to review the commits that we've made in our local machine that are not in the remote repository.
+	Having a copy of the last known state helps us keep track of the 
+commits we've made so far. We can use it to review the commits that we've 
+made in our local machine that are not in the remote repository.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-	I would have to code my project in my local machine and then transfer these files to another contributor through a hard drive or email the files so that they can work on it. Using Git/ GitHub would be way easier than manually transferring the data to be shared.
+	I would have to code my project in my local machine and then 
+transfer these files to another contributor through a hard drive or email 
+the files so that they can work on it. Using Git/ GitHub would be way easier
+than manually transferring the data to be shared.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-	Whenever I work on a bugfix or when I am trying out a new feature, it would make more sense to create another branch for that work and after completing it, merge it with the master branch. This allows a working copy of the code to be stored in master while allowing us to develop other features simultaneously.
-	If I was fixing a typo or grammar in the docs, I would rather make changes in the master itself as it doesn't need any significant changes.
+	Whenever I work on a bugfix or when I am trying out a new feature, it 
+would make more sense to create another branch for that work and after completing
+it, merge it with the master branch. This allows a working copy of the code to be
+ stored in master while allowing us to develop other features simultaneously.
+	If I was fixing a typo or grammar in the docs, I would rather make 
+changes in the master itself as it doesn't need any significant changes.
